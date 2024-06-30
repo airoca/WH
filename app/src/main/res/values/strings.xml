@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_washers">WashersActivity</string>
+    <string name="used">사용중</string>
+    <string name="title_activity_time_set">TimeSetActivity</string>
+    <string name="title_activity_navigate">NavigateActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_select">시설물</string>
+    <string name="menu_using">사용중</string>
+    <string name="menu_reserved">예약중</string>
+    <string name="title_activity_edit">EditActivity</string>
+</resources>

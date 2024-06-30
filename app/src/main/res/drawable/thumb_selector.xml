@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="true">
+        <layer-list>
+            <item>
+                <shape>
+                    android:dither="true" android:shape="rectangle"
+                    android:useLevel="false" android:visible="true">
+                    <solid android:color="@color/blue" />
+                    <corners android:radius="20dp" />
+                    <size
+                        android:width="60dp"
+                        android:height="40dp" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/baseline_male_24"
+                android:width="35dp"
+                android:height="35dp"
+                android:gravity="center"/>
+        </layer-list>
+
+    </item>
+
+    <item android:state_checked="false">
+        <layer-list>
+            <item>
+                <shape
+                    android:dither="true" android:shape="rectangle"
+                    android:useLevel="false" android:visible="true">
+                    <solid android:color="@color/red" />
+                    <corners android:radius="20dp" />
+                    <size
+                        android:width="60dp"
+                        android:height="40dp" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/baseline_female_24"
+                android:width="35dp"
+                android:height="35dp"
+                android:gravity="center"/>
+        </layer-list>
+
+    </item>
+
+</selector>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/usingItem"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:background="@drawable/list_card"
+    android:backgroundTint="@color/lightblue"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/txtUsingName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="세탁기 1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="start"/>
+
+    <TextView
+        android:id="@+id/txtDorm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="(나래관)"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="8dp"
+        android:gravity="start"/>
+
+    <TextView
+        android:id="@+id/txtuserRemainingTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textAlignment="textEnd"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="26dp"/>
+</LinearLayout>

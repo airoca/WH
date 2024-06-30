@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/background_img">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/title"
+        android:paddingBottom="50dp"
+        android:layout_centerHorizontal="true"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"/>
+
+    <EditText
+        android:id="@+id/etUserid"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="ID"
+        android:inputType="textEmailAddress"/>
+
+    <!-- 비밀번호 입력 필드 -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"/>
+    <!-- 로그인 버튼 -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="로그인"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="24dp"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:textColor="@color/black"
+        android:background="@android:color/transparent"
+        android:layout_centerHorizontal="true"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"/>
+</LinearLayout>
